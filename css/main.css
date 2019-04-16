@@ -40,26 +40,28 @@ nav li{
 
 section{
 	width: 640px;
+	height: 478px;
 	background-color: #173e43;
 	border-radius: 5px;
 	float: left;
 }
 aside{
 	width: 338px;
-	height: auto;
+	height: 480px;
 	margin-left: 2px;
 	border-radius: 5px;
-	background-color: #3fb0ac;
 	float:left;
 }
 aside header{
 	background-color:#173e43;
-	height: auto;
+	height: 140px;
+	margin-bottom:-3px; 
 	color:white;
 }
 aside p{
 	margin: 5px 5px;
 }
+
 hr{
 	clear: both;
 	margin-top:10px;
@@ -80,6 +82,12 @@ footer{
 	text-align:center;
     width: auto;
     padding: 25px;
+}
+
+#asideBody{
+	height: 324px;
+	background-color: #3fb0ac;
+	border-radius:5px;
 }
 
 #row1{
