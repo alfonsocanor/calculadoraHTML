@@ -4,6 +4,10 @@
 	box-sizing:boder-box;
 }
 
+a:visited{
+	color:black;
+}
+
 header, nav, section, aside, footer{
 	display: block
 }
@@ -40,7 +44,7 @@ nav li{
 
 section{
 	width: 640px;
-	height: 478px;
+	height: auto;
 	background-color: #173e43;
 	border-radius: 5px;
 	float: left;
@@ -92,7 +96,6 @@ footer{
 
 #row1{
 	width: 600px;
-    background-color: blue;
 }
 #row1 img{
 	display: inline-block;
@@ -119,7 +122,20 @@ footer{
 	display: inline-block;
 }
 
+#row4{
+	width: 600px;
+}
+#row5 img{
+	display: inline-block;
+}
+
 #display{
 	font:normal 38px verdana, arial;
 	line-height:40px;
+	margin: 10px 10px;
+}
+
+#blankSpaceBox{
+	width: 128px;
+	height: 128px;
 }
